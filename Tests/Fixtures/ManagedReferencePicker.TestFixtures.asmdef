@@ -1,0 +1,11 @@
+{
+    "name": "ManagedReferencePicker.TestFixtures",
+    "rootNamespace": "ManagedReferencePicker.Tests",
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ]
+}

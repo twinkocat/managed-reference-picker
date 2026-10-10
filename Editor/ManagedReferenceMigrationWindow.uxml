@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <ui:Style src="ManagedReferenceMigrationWindow.uss" />
+    <ui:VisualElement class="migration-window">
+        <ui:Label text="Managed Reference Migrations" class="migration-title" />
+        <ui:Label text="Script GUIDs track type history without attributes. Scan after refactoring, review the preview, then apply. Save your work and close Prefab mode first." class="migration-description" />
+        <ui:VisualElement class="migration-toolbar">
+            <ui:Button name="scan" text="Scan" />
+            <ui:Button name="apply" text="Apply preview" />
+            <ui:Button name="restore" text="Restore last migration" />
+        </ui:VisualElement>
+        <ui:Label name="status" class="migration-description" />
+        <ui:ScrollView name="results" class="migration-results" />
+    </ui:VisualElement>
+</ui:UXML>

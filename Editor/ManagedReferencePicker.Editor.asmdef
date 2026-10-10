@@ -1,0 +1,10 @@
+{
+    "name": "ManagedReferencePicker.Editor",
+    "rootNamespace": "ManagedReferencePicker.Editor",
+    "references": [
+        "ManagedReferencePicker"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ]
+}
